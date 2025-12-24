@@ -1,0 +1,128 @@
+/* Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body */
+body {
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(135deg, #ffe4ec, #fff6fa);
+    color: #4a2c2a;
+}
+
+/* Header */
+header {
+    background: #ffb6c1;
+    text-align: center;
+    padding: 30px;
+    border-bottom-left-radius: 40px;
+    border-bottom-right-radius: 40px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+header h1 {
+    font-size: 3rem;
+}
+
+header p {
+    font-size: 1.1rem;
+    opacity: 0.8;
+}
+
+/* Navbar */
+nav {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin: 25px 0;
+}
+
+nav a {
+    text-decoration: none;
+    color: #ff6f91;
+    font-weight: 600;
+    padding: 10px 18px;
+    border-radius: 25px;
+    transition: 0.3s;
+}
+
+nav a:hover {
+    background: #ffb6c1;
+    color: white;
+}
+
+/* Sections */
+section {
+    background: white;
+    margin: 30px auto;
+    padding: 30px;
+    width: 85%;
+    border-radius: 25px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.08);
+}
+
+section h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #ff6f91;
+}
+
+/* Dessert items */
+.item {
+    display: inline-block;
+    text-align: center;
+    margin: 15px;
+    transition: transform 0.3s;
+}
+
+.item img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 20px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.15);
+}
+
+.item p {
+    margin-top: 10px;
+    font-weight: 600;
+}
+
+.item:hover {
+    transform: scale(1.08) rotate(-1deg);
+}
+
+/* Friday specials list */
+ul {
+    list-style: none;
+    text-align: center;
+}
+
+ul li {
+    background: #ffe4ec;
+    margin: 10px auto;
+    padding: 12px;
+    width: 60%;
+    border-radius: 20px;
+    font-weight: 500;
+}
+
+/* Visit section */
+section p {
+    text-align: center;
+    margin-top: 8px;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #ffb6c1;
+    margin-top: 40px;
+    border-top-left-radius: 40px;
+    border-top-right-radius: 40px;
+}
